@@ -64,7 +64,7 @@ if ($serverMode === '0') {
                     ? $line
                     : $baseUrl . '/' . ltrim($line, '/');
 
-                return 'proxy-php-d724.onrender.com/?s=1&url=' . urlencode($segmentUrl);
+                return 'http://proxy-php-d724.onrender.com/?s=1&url=' . urlencode($segmentUrl);
             },
             $playlist
         );
